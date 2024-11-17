@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuickBank - Loan Application</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div class="loan-container">
+    <header>
+      <div class="logo">
+        <img src="assets/images/quickbank-logo.png" alt="QuickBank Logo" class="logo-img">
+      </div>
+      <nav>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="#">Logout</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Loan Application</h1>
+      <form id="loan-form">
+        <div class="form-group">
+          <label for="loan-amount">Loan Amount</label>
+          <input type="number" id="loan-amount" name="loan-amount" required>
+        </div>
+
+        <div class="form-group">
+          <label for="loan-term">Loan Term (in years)</label>
+          <input type="number" id="loan-term" name="loan-term" required>
+        </div>
+
+        <button type="submit" class="submit-btn">Apply for Loan</button>
+      </form>
+    </main>
+  </div>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
